@@ -1,0 +1,428 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(241, 241, 244);
+     z-index: 1;
+
+    
+}
+.left-nav
+{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 40px;
+}
+.left-nav img
+{
+  width: 40px;
+  height: 40px;
+}
+.left-nav a
+{
+    text-decoration: none;
+    color: black;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size:  15px;
+
+}
+.left-nav a:hover
+{
+    color:green ;
+}
+.right-nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inner-first
+{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.inner-first img
+{
+    width: 20px;
+    height: 20px;
+    color: black;
+}
+.inner-first a
+{
+   text-decoration:none ;
+   color: black;
+   font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+   font-weight: 600;
+}
+
+.inner-second
+{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 40px;
+} 
+.inner-second button
+{
+    width: 75px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5;
+    cursor: pointer;
+}
+.inner-second #btn
+{
+    background-color: black;
+    color: white;
+}
+.main-div
+{
+  width: 100%;
+  display: flex;
+  padding: 30px;
+}
+.sub-img
+{
+    width: 50%;
+}
+.sub-img img
+{
+    width: 100%;
+    display: flex;
+}
+.content-section
+{
+    width: 50%;
+    /* background-color: #006241; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+.content-section p{
+    color: white;
+    text-align: center;
+    /* font-size: 35px; */
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.content-section button
+{   
+    /* width: 250px;
+    height: 33px; */
+    /* font-size:20px ; */
+    /* color: white; */
+    /* background-color: #006241; */
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.c1
+{
+    background-color: #006241;
+}
+.p1
+{
+    font-size: 45px;
+}
+.p1-sub
+{
+    font-size: 23px;
+}
+.b1{
+    width: 250px;
+    font-size: 20px;
+    color:white;
+    background-color: #006241;
+    height: 33px;
+}
+.b1:hover
+{
+    background-color: #023927;
+}
+
+.c2
+{
+   background-color:  #9e2240;
+}
+.b2
+{
+    width: 120px;
+    background-color:  #9e2240;
+}
+.b2:hover
+{
+    background-color: #6c0821;
+}
+.c3
+{
+    background-color: #006241;
+}
+.p3
+{
+    font-size: 25px;
+}
+.p3-sub
+{
+    font-size: 18px;
+}
+.b3
+{
+    width: 120px;
+}
+.c4
+{
+    background-color: #ecbb4d;
+}
+.content-section .p4
+{
+    color: rgb(2, 32, 2);
+}
+.content-section .p4-sub
+{
+    color: rgb(2, 32, 2);
+}
+.content-section .b4
+{
+    width: 120px;
+    background-color: #ecbb4d;
+    color: rgb(2, 32, 2); 
+    border: 2px solid rgb(2,32,2);
+}
+.b4:hover
+{
+   background-color:  #9e7515;
+}
+.c5
+{
+    background-color: #007179;
+}
+.p5
+{
+    font-size: 47px;
+}
+.p5-sub
+{
+    line-height: 29px;
+}
+.b5
+{
+    background-color: #007179;
+    width: 120px;
+}
+.b5:hover
+{
+    background-color: #095b61;
+}
+.c6
+{
+   background-color:#ffbe9e;
+  
+}
+.content-section .p6
+{
+color: #022318;
+}
+.content-section .p6-sub
+{
+    color: #022318;
+}
+.content-section .b6{
+    width: 120px;
+    background-color:#ffbe9e;
+    color: #022318;
+    border: 2px solid #022318;
+}
+.b6:hover
+{
+    background-color: #df9c7b;
+}
+.c7
+{
+   background-color:  #d9e89a;
+}
+.content-section .p7
+{
+    color:  #042503 ;
+}
+.content-section .p7-sub
+{
+    color:  #042503 ;
+}
+.content-section .b7
+{
+    width: 120px;
+    background-color:  #d9e89a;
+    color: #042503;
+    border: 2px solid #042503;
+}
+.b7:hover
+{
+    background-color:  #cadb85;
+}
+/* picture section closed */
+/* .container-content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:auto;
+}
+.container-content p
+{
+    text-align: center;
+
+} */
+.main-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.container-content
+{
+    width: 33%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.container-content p
+{
+   text-align: center;
+}
+.container-content .paragraph
+{
+    margin-top: 30px;
+}
+hr
+{
+    border: 1px solid rgb(128, 124, 124);
+    margin-top: 15px;
+}
+/* footer sections are started here */
+.footer-main
+{
+    display: flex;
+    width: 80%;
+    /* flex: 1; */
+    justify-content: space-between;
+    padding: 30px;
+}
+.footer
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 20%;
+     justify-content: baseline;
+     padding: 5px;
+    /* flex: 1; */
+}
+/* .for-about
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.for-careers
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.for-socialimpact
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.for-bussines
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+.for-order
+{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 10px;
+} */
+ .footer a
+ {
+    text-decoration:none ;
+    color: #766e70;
+    font-weight: 600;
+ }
+ .footer a:hover
+ {
+    color: rgb(44, 42, 42);
+ }
+ h2
+ {
+    font-size: 20px;
+ }
+.sample 
+{
+    padding: 0px 20px 0px 20px;
+   
+}
+.last-footer
+{   
+    width: 30%;
+   display: flex;
+   gap: 20px;
+   margin-top: 35px;
+   padding: 20px;
+   margin-left: 20px;
+}
+.last-footer img
+{
+height: 30px;
+width: 30px;
+}
+.footer-bottom
+{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 15px;
+}
+.footer-bottom a
+{
+text-decoration: none;
+color: rgb(49, 46, 46);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+font-weight: 600;
+}
+.footer-bottom a:hover
+{
+    text-decoration: underline;
+    color: black;
+    
+}
+.google
+{
+    padding: 30px;
+}
